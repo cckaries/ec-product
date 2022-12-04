@@ -1,0 +1,61 @@
+.Container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  &.expanded > .Menu {
+    display: block;
+  }
+}
+
+.Container > .CartIcon {
+  cursor: pointer;
+
+  > .Icon {
+    height: 100%;
+    padding-right: 0.25rem;
+    font-size: 1.5rem;
+  }
+
+  > .Badge {
+    position: absolute;
+    top: 0.25rem;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1rem;
+    min-height: 1rem;
+    border: 1px solid;
+    border-radius: 50%;
+    background: grey;
+    font-size: 0.5rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+  }
+}
+
+.Container > .Menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 2.25rem;
+  min-width: 160px;
+  padding: 0.5rem;
+  border: 1px solid;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Container > .Menu > .RemoveButton {
+  width: 100%;
+}
+
+@media (hover: hover) {
+  .Container:hover > .Menu {
+    display: block;
+  }
+}

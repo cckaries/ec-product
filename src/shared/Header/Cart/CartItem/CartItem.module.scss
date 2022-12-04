@@ -1,0 +1,9 @@
+.Container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+
+  > span {
+    margin-left: 0.5rem;
+  }
+}
