@@ -1,0 +1,42 @@
+{
+  "id": 0,
+  "title": "Nintendo Switch w/ Neon Blue & Neon Red Joy-Con + 12 Month Individual Membership Nintendo Switch Online + Carrying Case",
+  "ratingScore": 3.8,
+  "ratingCount": 12,
+  "price": 300.00,
+  "qtyLimit": 5,
+  "imgSrc": "https://images.unsplash.com/photo-1669917408072-a02f3f2fed0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+  "reviews": [
+    {
+      "reviewId": 1,
+      "username": "Chloe",
+      "dateTs": 1662940800,
+      "ratingScore": 5,
+      "description": "Good quality",
+      "images": [
+        "https://images.unsplash.com/photo-1664575196079-9ac04582854b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        "https://images.unsplash.com/photo-1670139020122-fa0659de63d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://images.unsplash.com/photo-1670100258448-fd58eace63ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+      ]
+    },
+    {
+      "reviewId": 2,
+      "username": "Aurora",
+      "dateTs": 1652313600,
+      "ratingScore": 4,
+      "description": "Attractive, innovative design",
+      "images": []
+    },
+    {
+      "reviewId": 3,
+      "username": "Guru",
+      "dateTs": 1664582400,
+      "ratingScore": 4,
+      "description": "Solid quality but short battery life",
+      "images": [
+        "https://images.unsplash.com/photo-1669853885724-fe95e3e8dcb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1496&q=80",
+        "https://images.unsplash.com/photo-1669872652533-345c1b13412b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80"
+      ]
+    }
+  ]
+}
