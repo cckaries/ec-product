@@ -1,0 +1,57 @@
+.Container {
+  flex: 1;
+  padding: 0.5rem 0;
+
+  > *:not(:first-child) {
+    margin-top: 0.5rem;
+  }
+}
+
+.Container > .Title {
+  display: flex;
+  justify-content: space-between;
+
+  > * {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.Container > .Title > .Left > .Name {
+  font-weight: 600;
+}
+
+.Container > .Title > .Left > .Rating {
+  margin-left: 0.5rem;
+}
+
+.Container > .Title > .Date {
+  font-size: 0.75rem;
+}
+
+.Container > p {
+  font-size: 0.75rem;
+}
+
+.Container > .Images {
+  display: flex;
+  margin-top: 1rem;
+
+  > *:not(:first-child) {
+    margin-left: 0.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Container > .Title > * {
+    align-items: flex-start;
+  }
+
+  .Container > .Title > .Left {
+    flex-direction: column;
+  }
+
+  .Container > .Title > .Left > .Rating {
+    margin-left: 0;
+  }
+}
