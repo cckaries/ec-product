@@ -1,0 +1,54 @@
+.Container {
+  display: flex;
+  width: 100%;
+}
+
+.Container > .Info {
+  margin-left: 1.5rem;
+
+  > *:not(:first-child) {
+    margin-top: 0.75rem;
+  }
+}
+
+.Container > .Info > .Price {
+  font-size: 1.25rem;
+  font-weight: 600;
+
+  &::before {
+    content: '$';
+    margin-right: 0.125rem;
+  }
+}
+
+.Container > .Info > .Qty > .Select {
+  width: 150px;
+  height: 2rem;
+}
+
+.Container > .Info > .Buttons {
+  margin-top: 1rem;
+}
+
+.Container > .Info > .Buttons > .AddCartButton {
+  width: 200px;
+  height: 2.5rem;
+}
+
+@media (max-width: 600px) {
+  .Container {
+    flex-direction: column;
+  }
+
+  .Container > .Image {
+    min-width: 100%;
+  }
+
+  .Container > .Info {
+    margin-left: 0;
+  }
+
+  .Container > .Info > .Buttons > .AddCartButton {
+    width: 100%;
+  }
+}
