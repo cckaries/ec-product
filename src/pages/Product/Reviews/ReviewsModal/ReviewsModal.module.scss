@@ -1,0 +1,36 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: calc(100vh - 8rem);
+  max-height: calc(100vh - 8rem);
+  padding: 1rem 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background: #fff;
+  overflow-y: auto;
+}
+
+.Container > .Top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.Container > .Top > .CloseButton {
+  all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid;
+  border-radius: 100%;
+
+  &::before {
+    content: '\2715';
+  }
+}
