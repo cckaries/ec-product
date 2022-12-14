@@ -1,5 +1,4 @@
 import { useState, useRef } from 'react';
-import Cookie from 'js-cookie';
 
 import styles from './Brief.module.scss';
 import ActionButton from '../../../shared/ActionButton/ActionButton';

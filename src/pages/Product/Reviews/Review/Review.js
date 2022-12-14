@@ -1,10 +1,10 @@
 import { format, getTime } from 'date-fns';
 import cx from 'classnames';
 
+import styles from './Review.module.scss';
 import Ratings from '../../../../shared/Ratings/Ratings';
 import Image from '../../../../shared/Image/Image';
 
-import styles from './Review.module.scss';
 
 const Review = ({
   username = '',
