@@ -16,3 +16,15 @@
     text-decoration: underline;
   }
 }
+
+.Top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Select {
+  width: 150px;
+  height: 2rem;
+  margin-left: 0.5rem;
+}
